@@ -1,0 +1,30 @@
+
+nav{
+    transition: all 0.3s ease-in-out;
+}
+
+#logoNav{
+    width: 4rem;
+    filter: grayscale();
+}
+
+.navbar-toggler{
+    border: 0px !important;
+}
+.navbar-toggler i {
+    font-size: 2rem !important;
+}
+
+.btn-close{
+    margin: 2rem 1rem;
+}
+.nav-link{
+    margin: 1rem;
+}
+.navbar-nav-title{
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+.offcanvas{
+    max-width: 80vw;
+}

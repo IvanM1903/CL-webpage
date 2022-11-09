@@ -1,0 +1,33 @@
+.title-text {
+  letter-spacing: 0.2rem;
+  position: relative;
+  width: 90% !important;
+}
+
+.title-text:before {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background: #e7e7e7;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.title-text:after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background: #e7e7e7;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+@media only screen and (min-width: 1024px) {
+  .title-text {
+    width: 45% !important;
+  }
+}

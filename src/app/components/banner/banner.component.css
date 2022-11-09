@@ -1,0 +1,15 @@
+.banner-image {
+  background-image: url("../../../assets/images/background-banner.jpg");
+  background-size: cover;
+}
+
+#text-banner {
+  margin-top: 7rem;
+  letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #text-banner h1 {
+    font-size: 2rem;
+  }
+}
