@@ -1,0 +1,14 @@
+.top-buffer {
+  margin-top: 1rem !important;
+}
+
+.bi-facebook {
+  font-size: 2rem;
+  transition: all 0.2s ease-in;
+}
+
+.bi-facebook:hover {
+  cursor: pointer;
+  color: #3b5998;
+  transform: scale(1.1);
+}
